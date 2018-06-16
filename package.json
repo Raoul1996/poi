@@ -47,5 +47,7 @@
     "lerna": "^2.0.0",
     "xo": "^0.18.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "karma": "2.0.3"
+  }
 }
