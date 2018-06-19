@@ -5,7 +5,9 @@
   "scripts": {
     "precommit": "npm test",
     "test": "lerna bootstrap && npm run lint && lerna run test",
-    "lint": "xo"
+    "lint": "xo",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "main": "index.js",
   "xo": {
@@ -47,5 +49,8 @@
     "lerna": "^2.0.0",
     "xo": "^0.18.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "snyk": "^1.83.0"
+  },
+  "snyk": true
 }
