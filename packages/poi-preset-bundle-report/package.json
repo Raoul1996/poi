@@ -12,7 +12,7 @@
   "license": "MIT",
   "xo": false,
   "dependencies": {
-    "webpack-bundle-analyzer": "^2.8.2"
+    "webpack-bundle-analyzer": "^3.3.2"
   },
   "devDependencies": {
     "documentation": "^4.0.0-rc.1"
