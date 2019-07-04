@@ -2,7 +2,9 @@
   "name": "poi-preset-babel-minify",
   "version": "1.0.3",
   "scripts": {
-    "example": "poi build example/index.js --presets ./index.js"
+    "example": "poi build example/index.js --presets ./index.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "files": [
     "index.js"
@@ -10,6 +12,8 @@
   "license": "MIT",
   "repository": "egoist/poi",
   "dependencies": {
-    "babel-minify-webpack-plugin": "^0.2.0"
-  }
+    "babel-minify-webpack-plugin": "^0.2.0",
+    "snyk": "^1.190.0"
+  },
+  "snyk": true
 }
