@@ -2,7 +2,9 @@
   "name": "poi-preset-karma",
   "version": "9.2.3",
   "scripts": {
-    "example": "poi test"
+    "example": "poi test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "files": [
     "index.js"
@@ -17,10 +19,12 @@
     "karma-mocha-reporter": "^2.2.4",
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^2.0.4",
-    "mocha": "^3.5.0"
+    "mocha": "^3.5.0",
+    "snyk": "^1.189.0"
   },
   "xo": false,
   "devDependencies": {
     "webpack": "^3.5.5"
-  }
+  },
+  "snyk": true
 }
