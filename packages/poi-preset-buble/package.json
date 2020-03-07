@@ -7,7 +7,7 @@
   "author": "EGOIST <0x142857@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "buble": "^0.18.0",
+    "buble": "^0.19.6",
     "loader-utils": "^1.1.0",
     "nodent-compiler": "^3.1.5"
   },
