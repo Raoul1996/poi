@@ -5,16 +5,20 @@
   "license": "MIT",
   "repository": "egoist/poi",
   "scripts": {
-    "example": "poi example/index.js --presets ./index.js"
+    "example": "poi example/index.js --presets ./index.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "files": [
     "index.js"
   ],
   "dependencies": {
-    "react-hot-loader": "^3.1.1"
+    "react-hot-loader": "^3.1.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
-  }
+  },
+  "snyk": true
 }
