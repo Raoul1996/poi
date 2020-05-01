@@ -7,7 +7,9 @@
   ],
   "scripts": {
     "example": "poi example/index.js --presets ./index.js",
-    "example:build": "poi build example/index.js --presets ./index.js"
+    "example:build": "poi build example/index.js --presets ./index.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "license": "MIT",
   "author": {
@@ -16,9 +18,11 @@
   },
   "dependencies": {
     "elm-hot-loader": "^0.5.4",
-    "elm-webpack-loader": "^4.3.1"
+    "elm-webpack-loader": "^4.3.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "elm": "^0.18.0"
-  }
+  },
+  "snyk": true
 }
