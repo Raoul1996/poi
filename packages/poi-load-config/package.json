@@ -7,7 +7,9 @@
   ],
   "scripts": {
     "test": "jest",
-    "docs": "documentation readme index.js -s API"
+    "docs": "documentation readme index.js -s API",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "poi",
@@ -19,12 +21,14 @@
     "babel-core": "^6.24.1",
     "babel-load-config": "^1.0.0",
     "postcss-load-config": "^1.2.0",
-    "use-config": "^1.1.0"
+    "use-config": "^1.1.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "documentation": "^4.0.0-rc.1",
     "jest": "^20.0.3"
   },
   "license": "MIT",
-  "author": "EGOIST <0x142857@gmail.com>"
+  "author": "EGOIST <0x142857@gmail.com>",
+  "snyk": true
 }
