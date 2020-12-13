@@ -62,7 +62,7 @@
     "loud-rejection": "^1.6.0",
     "memory-fs": "^0.4.1",
     "mz": "^2.6.0",
-    "node-notifier": "^5.1.2",
+    "node-notifier": "^9.0.0",
     "opn": "^5.0.0",
     "parse-json-config": "^0.2.0",
     "poi-dev-utils": "^1.0.1",
