@@ -19,7 +19,7 @@
   ],
   "dependencies": {
     "svelte": "^1.18.1",
-    "svelte-loader": "^2.0.1"
+    "svelte-loader": "^3.0.0"
   },
   "devDependencies": {
     "documentation": "^4.0.0-rc.1"
