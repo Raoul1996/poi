@@ -10,9 +10,9 @@
   "dependencies": {
     "istanbul-instrumenter-loader": "^3.0.0",
     "jasmine-core": "^2.8.0",
-    "karma": "^1.7.1",
+    "karma": "^3.0.0",
     "karma-chrome-launcher": "^2.2.0",
-    "karma-coverage": "^1.1.1",
+    "karma-coverage": "^2.0.2",
     "karma-mocha": "^1.3.0",
     "karma-mocha-reporter": "^2.2.4",
     "karma-sourcemap-loader": "^0.3.7",
