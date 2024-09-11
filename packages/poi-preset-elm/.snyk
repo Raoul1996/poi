@@ -1,0 +1,16 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - elm-webpack-loader > node-elm-compiler > lodash:
+        patched: '2024-09-11T00:30:38.589Z'
+        id: SNYK-JS-LODASH-567746
+        path: elm-webpack-loader > node-elm-compiler > lodash
+    - elm-webpack-loader > node-elm-compiler > find-elm-dependencies > lodash:
+        patched: '2024-09-11T00:30:38.589Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          elm-webpack-loader > node-elm-compiler > find-elm-dependencies >
+          lodash
